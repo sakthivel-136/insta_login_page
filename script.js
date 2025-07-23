@@ -8,5 +8,5 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   localStorage.setItem("insta_user", username);
   localStorage.setItem("insta_pass", password);
 
-  alert("✅ Login data stored locally!");
+  
 });
